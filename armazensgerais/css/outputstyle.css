@@ -1,0 +1,318 @@
+@font-face {
+  font-family: fonteTituloSessao;
+  src: url(../fonts/steelfish.ttf); }
+@font-face {
+  font-family: fonteSubTituloSessao;
+  src: url(../fonts/Gotham-Thin.otf); }
+.strong {
+  font-weight: 700; }
+
+.Pantone {
+  color: #ee7335; }
+
+.VerdeNobre {
+  color: #0d3313; }
+
+.parallaxCafe {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-image: url("../img/fundoParalax.jpg");
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+.parallaxSendas {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-image: url("../img/fundoParalaxArmazem.jpg");
+  padding-top: 300px;
+  padding-bottom: 300px; }
+
+.parallaxEmbarque {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-image: url("../img/fundoParalaxEmbarque.jpg");
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+@media only screen and (max-device-width: 1024px) {
+  .parallaxCafe,
+  .parallaxSendas,
+  .parallaxEmbarque {
+    background-attachment: scroll; } }
+#SessaoSobreSendas {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background: rgba(213, 154, 0, 0.2); }
+  #SessaoSobreSendas h1 {
+    font-size: 80pt;
+    font-family: fonteTituloSessao;
+    color: #eaeaea;
+    text-align: center;
+    margin: 25px;
+    text-shadow: 2px 2px #6C7B8B;
+    line-height: 110%; }
+  #SessaoSobreSendas h2 {
+    font-size: 30pt;
+    font-family: fonteSubTituloSessao;
+    color: #eaeaea;
+    text-align: center;
+    margin: 25px;
+    text-shadow: 2px 2px #6C7B8B;
+    line-height: 110%; }
+
+#SessaoHistoriaSendas {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background: #0d3313; }
+  #SessaoHistoriaSendas h2 {
+    font-size: 50pt;
+    font-family: fonteTituloSessao;
+    color: #eaeaea;
+    text-align: center;
+    margin: 25px;
+    text-shadow: 2px 2px #6C7B8B;
+    line-height: 110%; }
+
+#SessaoTradicao {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background: rgba(30, 44, 53, 0.5); }
+  #SessaoTradicao h2 {
+    font-size: 50pt;
+    font-family: fonteTituloSessao;
+    color: #eaeaea;
+    text-align: center;
+    margin: 25px;
+    text-shadow: 2px 2px #6C7B8B;
+    line-height: 110%; }
+
+#SessaoLogistica {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background: #0d3313; }
+  #SessaoLogistica h2 {
+    font-size: 50pt;
+    font-family: fonteTituloSessao;
+    color: #ee7335;
+    text-align: center;
+    margin: 25px;
+    text-shadow: 2px 2px #6C7B8B;
+    line-height: 110%; }
+
+#SessaoEmbarque {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 0px;
+  padding-right: 0px; }
+
+#SessaoContato {
+  padding-top: 50px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px; }
+  #SessaoContato h2 {
+    font-size: 50pt;
+    font-family: fonteTituloSessao;
+    color: black;
+    text-align: center;
+    margin: 25px;
+    text-shadow: 2px 2px #6C7B8B;
+    line-height: 110%; }
+
+#SessaoLocalizacao {
+  padding-top: 50px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background: #eaeaea; }
+  #SessaoLocalizacao h2 {
+    font-size: 50pt;
+    font-family: fonteTituloSessao;
+    color: black;
+    text-align: center;
+    margin: 25px;
+    text-shadow: 2px 2px #6C7B8B;
+    line-height: 110%; }
+
+.paragrafoSessao {
+  font-size: 20pt;
+  font-family: none;
+  color: #eaeaea;
+  text-align: center;
+  margin: 15px;
+  font-family: 'Roboto Slab', sans-serif;
+  line-height: 30px; }
+
+img {
+  border-radius: 0 0 0 0;
+  height: 100%;
+  width: 100%; }
+
+.flag {
+  padding-bottom: 200px; }
+
+.HeaderFixo {
+  background: #0d3313; }
+  .HeaderFixo a {
+    padding-top: 0px;
+    padding-bottom: 35px;
+    padding-left: 0px;
+    padding-right: 0px; }
+  .HeaderFixo li a {
+    font-size: 23pt;
+    font-family: fonteTituloSessao;
+    color: #eaeaea;
+    text-align: center;
+    margin: 15px;
+    padding-top: 20px; }
+  .HeaderFixo:hover {
+    text-decoration: none; }
+
+.logo {
+  max-height: 140px;
+  max-width: 180px; }
+
+.logocenter {
+  max-height: 990px;
+  max-width: 1050px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 850px;
+  padding-right: 0px; }
+
+.puzzleImagens {
+  height: 40%;
+  width: 19%; }
+
+.tech-slideshow {
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0); }
+
+.tech-slideshow > div {
+  height: 200px;
+  width: 2526px;
+  background: url(../img/collage.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300%;
+  transform: translate3d(0, 0, 0); }
+
+.tech-slideshow .mover-1 {
+  animation-play-state: paused;
+  animation: moveSlideshow 35s linear infinite; }
+.tech-slideshow .mover-2 {
+  opacity: 0;
+  transition: opacity 5s;
+  background-position: 0 -301px;
+  animation: moveSlideshow 35s linear infinite; }
+
+.tech-slideshow:hover [class*="mover-"] {
+  transition: opacity .5s;
+  animation-play-state: paused;
+  opacity: 1; }
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-66.6666%); } }
+.devCardTitulo {
+  font-size: 30pt;
+  font-family: none;
+  color: #000;
+  text-align: center;
+  margin: 15px;
+  font-family: 'Patua One', sans-serif; }
+
+.devcardProfileIcon {
+  width: 55px;
+  height: 40px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 250px;
+  margin-right: 0px;
+  border-radius: 30px 30px 0 0;
+  border: solid 1px;
+  border-color: rgba(246, 240, 224, 0.1);
+  background-color: #f6f0e0;
+  position: absolute;
+  text-align: center;
+  line-height: 65px; }
+
+@media only screen and (max-width: 900px) {
+  .devcardProfileIcon {
+    margin-left: 0px; }
+
+  .devcard {
+    margin: 10px; } }
+@media only screen and (min-device-width: 1024px) {
+  .devcardProfileIcon {
+    margin-left: 80px; }
+
+  .devcard {
+    min-width: 300px; } }
+.devcardheader {
+  z-index: 2;
+  min-height: 50px;
+  border-radius: 6px 6px 0 0;
+  background-color: #1b5e20;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.devcardcontent {
+  padding-top: 10px;
+  z-index: 0;
+  min-height: 200px;
+  border: solid 1px;
+  border-top-color: rgba(246, 240, 224, 0.9);
+  background-color: rgba(246, 240, 224, 0.9);
+  border-radius: 0 0 6px 6px;
+  border-color: rgba(246, 240, 224, 0.9); }
+  .devcardcontent p {
+    font-size: 15pt;
+    font-family: none;
+    color: #000;
+    text-align: left;
+    margin: 15px;
+    font-family: 'Roboto Slab', sans-serif; }
+  .devcardcontent h3 {
+    font-size: 30pt;
+    font-family: none;
+    color: #000;
+    text-align: center;
+    margin: 15px;
+    font-family: 'Patua One', sans-serif; }
+
+.devcard {
+  min-width: 200px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 6px 6px 6px 6px; }
+
+.box {
+  padding-top: 80px;
+  text-align: center;
+  margin: 5px; }
+
+#scrollmapoff {
+  padding-top: 0px;
+  pointer-events: none; }
+
+/*# sourceMappingURL=outputstyle.css.map */

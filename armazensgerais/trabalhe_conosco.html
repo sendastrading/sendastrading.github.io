@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="noindex" />
+        <title>Sendas - Armazéns Gerais de Café</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--SEO-->
+        <meta name="description" content="Sendas Armazéns Gerais - Segurança e qualidade para armazenar seu café.">
+        <meta name="keywords" content="sendas,cafe,armazem,armazens,varginha,arabica">
+        <meta property="og:locale" content="pt_BR" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Sendas - Armazéns Gerais de Café" />
+        <meta property="og:url" content="https://www.sendastrading.com/armazensgerais" />
+        <meta property="og:site_name" content="Sendas - Armazéns Gerais de Café" />
+
+        <!--FAV ICON-->
+        <link rel="apple-touch-icon" sizes="180x180" href="img/appletouchicon.png">
+        <link rel="icon" type="image/png" href="img/favicon32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="img/favicon16x16.png" sizes="16x16">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="mask-icon" href="img/safaripinnedtab.svg" color="#5bbad5">
+        <meta name="theme-color" content="#ffffff">
+       
+        <!--Materialize-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <!--CSS-->
+        <link href="css/outputstyle.css" rel="stylesheet">
+        <!--Icons-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.1.2/material.grey-pink.min.css">
+        
+        <!--UploadCare
+        <script charset="utf-8" src="//ucarecdn.com/libs/widget/3.2.2/uploadcare.full.min.js"></script>
+        -->
+        <script charset="utf-8" src="https://ucarecdn.com/libs/widget/3.2.3/uploadcare.full.min.js"></script>
+        <script>
+        UPLOADCARE_LOCALE = "pt";
+        UPLOADCARE_TABS = "file";
+        UPLOADCARE_PUBLIC_KEY = "eb7adc5b06e99afc1f97";
+        UPLOADCARE_LOCALE_TRANSLATIONS = {
+        // messages for widget
+        errors: {
+          'fileType': 'Somente arquivos em PDF são permitidos!'
+        },
+        // messages for dialog’s error page
+        dialog: { tabs: { preview: { error: {
+          'fileType': {
+            //title: 'Title.',
+            //text: 'Text.',
+            back: 'Anexar outro arquivo'
+          }
+        } } } }
+        };
+        </script>
+    </head>
+    <body>
+        <!--Header&Menu-->
+        <div class="navbar-fixed">
+                <nav>
+                    <div class="nav-wrapper HeaderFixo">
+                        <a href="https://www.sendastrading.com.br/armazensgerais/index.html" class="brand-logo logo"><img src="img/logotiposendas.png" title="Sendas Armazéns Gerais de Café - logotiposendas" alt="Logotipo da empresa"/></a>
+                    </div>
+                </nav>
+            </div>
+        <!--Header&Menu-->
+
+        <section class="main">
+            <div class="container">
+                <div class="box">
+                    <div class="container">
+                        <br></br>
+                        <h5>Preencha os campos à seguir e nos envie seu currículo em anexo.</h5>
+                        <br></br>
+                        <br></br>
+                        <div class="formContato">
+                            <form action="https://formspree.io/f/contatositearmazem@sendastrading.com.br" method="POST" enctype="multipart/form-data">
+                                <!--row1-->
+                                <div class="row">
+                                    <div class="input-field col s12 m4">
+                                        <label for="nome"  class="visuallyhidden">Seu Nome:</label>
+                                        <input type="text" name="nome" id="Nome" class="name" placeholder="Seu Nome" required>
+                                    </div>
+                                    <div class="input-field col s12 m4">
+                                        <label for="email"  class="visuallyhidden">Seu Email:</label>
+                                        <input type="email" name="email" id="email" class="email" placeholder="Seu Email" required>
+                                    </div>
+                                    <div class="input-field col s12 m4">
+                                        <label for="telefone"  class="visuallyhidden">Telefone:</label>
+                                        <input type="text" name="telefone" id="telefone" placeholder="Telefone" maxlength="15" required>
+                                    </div>
+                                </div>
+                                <!--row2-->
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <label for="cargo"  class="visuallyhidden">Cargo Pretendido:</label>
+                                        <input type="text" name="cargo" id="cargo" placeholder="Cargo Pretendido" required>
+                                    </div>
+                                </div>
+                                <!--row3-->
+                                <div class="row">                                  
+                                    <div class="input-field col s12">
+                                        <label for="mensagem"  class="visuallyhidden">Deixe aqui uma breve descrição sobre seu perfil profisional:</label>
+                                        <textarea name="mensagem" id="mensagem" cols="1" rows="1" class="materialize-textarea" placeholder="Deixe aqui uma breve descrição sobre seu perfil profisional" required></textarea>   
+                                    </div>
+                                </div>
+                                <!--row4-->
+                                <div class="row">
+                                    <div class="col s12">
+                                        <h5>Não esqueça de anexar seu currículo em pdf:</h5> 
+                                        <br>
+                                        <input type="hidden" role="uploadcare-uploader" name="anexos"
+                                        data-crop="disabled" data-file-types="pdf" required/>
+                                    </div>
+                                </div>
+                                <!--row5-->
+                                <div class="row">                           
+                                        <br></br>
+                                    <div class="col s12">
+                                        <button type="submit" method="post" name="" value="Enviar Mensagem" id="submitbtn" onclick="" class="btn green darken-3">Enviar</button>
+                                    </div>
+                                    <input type="hidden" name="_next" value="/armazensgerais/obrigado_contato.html">
+                                    <input type="hidden" name="_subject" value="Nova mensagem registrada no Site!">         
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Materialize -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <!-- Script -->        
+        <script src="js/trabalhe_conosco.js"></script>     
+    </body>
+</html>

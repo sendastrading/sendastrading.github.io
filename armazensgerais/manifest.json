@@ -1,0 +1,23 @@
+{
+	"short_name": "Sendas",
+	"name":"Sendas Comércio Exterior e Amazéns Gerais S.A",
+	"description":"Sendas Armazéns Gerais - Segurança e qualidade para armazenar seu café.",
+	"datePublished": "2016-22-02T12:00:00Z",
+	"icons": [
+		{
+			"src": "img/androidchrome192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "img/androidchrome512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"orientation":"any",	
+	"theme_color": "#006400",
+	"background_color": "#0d3313",
+	"display": "standalone",
+	"start_url": "https://www.sendastrading.com.br/armazensgerais/"
+}
