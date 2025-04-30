@@ -12,7 +12,7 @@
   window.onload = function () {
       if (userLang !="pt-BR"){
       if (sessionStorage.firstLoad !== 'false'){
-      window.location.replace("https://www.sendastrading.com.br/armazensgerais/en/index.html")
+      window.location.replace("https://sendastrading.github.io/armazensgerais/en/index.html")
       sessionStorage.setItem('firstLoad','false')
           }}
       }
