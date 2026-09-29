@@ -356,4 +356,7 @@ button:focus-visible,
 .logoConab {
   filter: brightness(0); }
 
+.linkRodape {
+  text-decoration: underline; }
+
 /*# sourceMappingURL=outputstyle.css.map */
