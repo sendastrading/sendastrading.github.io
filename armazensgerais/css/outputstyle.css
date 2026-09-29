@@ -182,6 +182,30 @@ img {
   .HeaderFixo:hover {
     text-decoration: none; }
 
+.HeaderFixo .button-collapse {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 0 6px;
+  min-width: 48px;
+  color: #eaeaea; }
+
+.side-nav.menuMobile {
+  background: #0d3313; }
+  .side-nav.menuMobile li > a {
+    font-family: fonteTituloSessao;
+    font-size: 20pt;
+    color: #eaeaea;
+    height: 56px;
+    line-height: 56px; }
+  .side-nav.menuMobile .flag {
+    width: 32px;
+    height: auto;
+    padding-bottom: 0;
+    margin-right: 12px;
+    vertical-align: middle; }
+
 .logo {
   max-height: 140px;
   max-width: 180px; }
