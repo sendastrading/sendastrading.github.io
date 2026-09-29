@@ -6,6 +6,9 @@
   //rolapbaixo
   $("body").animatescroll()
 
+  //ano do copyright no rodape
+  $(".ano-atual").text(new Date().getFullYear())
+
   //menu mobile (< 993px): fecha ao clicar num link
   $(".button-collapse").sideNav({ closeOnClick: true })
 
