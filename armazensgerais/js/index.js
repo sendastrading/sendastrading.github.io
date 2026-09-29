@@ -6,16 +6,12 @@
   //rolapbaixo
   $("body").animatescroll()
 
-  //definelocalizacao
-  let userLang = navigator.language || navigator.userLanguage
-  if (typeof(Storage) !== "undefined") {
-  window.onload = function () {
-      if (userLang !="pt-BR"){
-      if (sessionStorage.firstLoad !== 'false'){
-      window.location.replace("https://www.sendastrading.com.br/armazensgerais/en/index.html")
-      sessionStorage.setItem('firstLoad','false')
-          }}
-      }
-      };
+  //idioma: sem redirect automatico. A escolha feita na bandeira fica salva
+  //e e respeitada pelo redirect da raiz do site (app/index.html).
+  $(".lang-switch").on("click", function () {
+    try {
+      localStorage.setItem("sendasLang", $(this).data("lang"))
+    } catch (e) {}
+  })
 
 }());
