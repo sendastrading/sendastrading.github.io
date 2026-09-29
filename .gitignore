@@ -1,0 +1,43 @@
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# Claude Code / AI tooling
+.claude/
+CLAUDE.md
+
+# Dependencies and build tooling
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.sass-cache/
+.jekyll-cache/
+_site/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+.env
+.env.*
+
+# Design sources and archives (not served by the site)
+*.psd
+*.ai
+*.sketch
+*.fig
+*.xcf
+*.zip
+*.rar
+*.7z
