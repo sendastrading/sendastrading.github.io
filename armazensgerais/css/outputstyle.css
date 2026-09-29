@@ -50,7 +50,7 @@
   padding-bottom: 180px;
   padding-left: 0px;
   padding-right: 0px;
-  background: rgba(213, 154, 0, 0.2); }
+  background: linear-gradient(rgba(213, 154, 0, 0.2), rgba(213, 154, 0, 0.2)), rgba(0, 0, 0, 0.3); }
   #SessaoSobreSendas h1 {
     font-size: 80pt;
     font-family: fonteTituloSessao;
@@ -66,7 +66,8 @@
     text-align: center;
     margin: 25px;
     text-shadow: 2px 2px #6C7B8B;
-    line-height: 110%; }
+    line-height: 110%;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0 12px rgba(0, 0, 0, 0.6); }
 
 #SessaoHistoriaSendas {
   padding-top: 100px;
@@ -345,5 +346,14 @@ img {
 #scrollmapoff {
   padding-top: 0px;
   pointer-events: none; }
+
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible {
+  outline: 3px solid #ee7335;
+  outline-offset: 2px; }
+
+.logoConab {
+  filter: brightness(0); }
 
 /*# sourceMappingURL=outputstyle.css.map */
