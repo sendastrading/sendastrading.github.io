@@ -25,7 +25,7 @@
         <link rel="icon" type="image/png" href="img/favicon16x16.png" sizes="16x16">
         <link rel="manifest" href="manifest.json">
         <link rel="mask-icon" href="img/safaripinnedtab.svg" color="#5bbad5">
-        <meta name="theme-color" content="#ffffff">
+        <meta name="theme-color" content="#0d3313">
 
         <!--Materialize-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
@@ -34,8 +34,9 @@
         <!--Icons-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
 </head>
     <body>
         <!--Header&Menu-->
@@ -73,6 +74,7 @@
                 <div id="SessaoSobreSendas">
                     <h1>Armazéns Gerais</h1>
                     <h2>Segurança e qualidade para armazenar seu café.</h2>
+                    <a class="btn btnPrimario btnHero" href="#SessaoContato">Fale conosco</a>
                 </div>
             </div>           
             <!--História Sendas-->
@@ -193,7 +195,7 @@
                 <h2>Localização</h2>
                 <div class="row">
                     <div class="col s12">
-                        <a class="btn blue darken-3" href="https://maps.app.goo.gl/JJvos4Jr5ibVg3fx5" target="_blank" rel="noopener">
+                        <a class="btn btnPrimario" href="https://maps.app.goo.gl/JJvos4Jr5ibVg3fx5" target="_blank" rel="noopener">
                         Abrir no Google Maps<i class="material-icons right" aria-hidden="true">open_in_new</i></a>      
                         <div id="scrollmapoff">
                             <iframe loading="lazy" title="Mapa da localização da Sendas em Varginha - MG" src="https://maps.google.com/maps?q=Armazem+Sendas+S.A.,+Av.+Comendador+Manoel+Sendas,+50+-+Parque+das+Americas,+Varginha+-+MG,+37030-035&amp;z=16&amp;hl=pt-BR&amp;output=embed"></iframe>
@@ -225,7 +227,7 @@
                                     <textarea name="mensagem" id="mensagem" cols="1" rows="1" class="materialize-textarea" placeholder="Sua Mensagem..." required></textarea>
                                 </div>
                                 <div class="col s12 m12">
-                                    <button type="submit" id="submitbtn" class="btn green darken-3" data-enviando="Enviando…">Enviar</button>
+                                    <button type="submit" id="submitbtn" class="btn btnPrimario" data-enviando="Enviando…">Enviar</button>
                                 </div>
                                 <input type="hidden" name="_next" value="/armazensgerais/obrigado_contato.html">
                                 <input type="hidden" name="_subject" value="Nova mensagem registrada no Site!">                                
@@ -234,47 +236,47 @@
                     </div>
                 </div>
             </div>
-            <footer class="page-footer brown lighten-5">
+            <footer class="page-footer rodape">
                 <div class="row container">
                     <div class="col l4 s12">
-                        <h5 class="brown-text">Sendas Comércio Exterior e Armazéns Gerais S.A</h5>
-                        <div class="brown-text">Endereço: Rua Comendador Manoel Sendas, Varginha - MG.</div>
-                        <div class="brown-text">Tel: <a class="brown-text linkRodape" href="tel:+553521059600">+55 35 2105-9600</a> / <a class="brown-text linkRodape" href="tel:+553521059616">2105-9616</a></div>
-                        <div class="brown-text">Email: <a class="brown-text linkRodape" href="mailto:armazem@sendastrading.com.br">armazem@sendastrading.com.br</a></div>
+                        <h5>Sendas Comércio Exterior e Armazéns Gerais S.A</h5>
+                        <div>Endereço: Rua Comendador Manoel Sendas, Varginha - MG.</div>
+                        <div>Tel: <a class="linkRodape" href="tel:+553521059600">+55 35 2105-9600</a> / <a class="linkRodape" href="tel:+553521059616">2105-9616</a></div>
+                        <div>Email: <a class="linkRodape" href="mailto:armazem@sendastrading.com.br">armazem@sendastrading.com.br</a></div>
                         <!-- <ul>
                         <li>
-                            <a class="brown-text" href="trabalhe_conosco.html"><h5 class="brown-text">Trabalhe Conosco</h5></a>
+                            <a href="trabalhe_conosco.html"><h5>Trabalhe Conosco</h5></a>
                         </li>
                         </ul> -->
                     </div>
                     <div class="col l4 s12">
-                        <h5 class="brown-text">Escritórios em:</h5>
+                        <h5>Escritórios em:</h5>
                         <ul>
                             <li>
-                                <span class="brown-text">&#160;Varginha - MG (Escritório e Armazéns Gerais)</span>
+                                <span>&#160;Varginha - MG (Escritório e Armazéns Gerais)</span>
                             </li>
                             <li>
-                                <span class="brown-text">&#160;Barra da Tijuca - RJ</span>
+                                <span>&#160;Barra da Tijuca - RJ</span>
                             </li>
                             <li>
-                                <span class="brown-text">&#160;Santos - SP</span>
+                                <span>&#160;Santos - SP</span>
                             </li>
                         </ul>
                     </div>
                     <div class="col l4 s12">
-                        <h5 class="brown-text">Navegue pelo Site</h5>
+                        <h5>Navegue pelo Site</h5>
                         <ul>
-                            <li><a class="brown-text" href="#SessaoSobreSendas">Quem Somos</a></li>
-                            <li><a class="brown-text" href="#SessaoTradicao">Tradição Sendas</a></li>
-                            <li><a class="brown-text" href="#SessaoLogistica">Logística</a></li>
-                            <li><a class="brown-text" href="#SessaoEmbarque">Estrutura</a></li>
-                            <li><a class="brown-text" href="#SessaoLocalizacao">Localização</a></li>
-                            <li><a class="brown-text" href="#SessaoContato">Contato</a></li>                 
+                            <li><a href="#SessaoSobreSendas">Quem Somos</a></li>
+                            <li><a href="#SessaoTradicao">Tradição Sendas</a></li>
+                            <li><a href="#SessaoLogistica">Logística</a></li>
+                            <li><a href="#SessaoEmbarque">Estrutura</a></li>
+                            <li><a href="#SessaoLocalizacao">Localização</a></li>
+                            <li><a href="#SessaoContato">Contato</a></li>                 
                         </ul>
                     </div>
                 </div>
                 <div class="footer-copyright">
-                    <div class="row container brown-text">
+                    <div class="row container">
                         © <span class="ano-atual">2026</span> Todos os direitos reservados.
                     </div>
                 </div>

@@ -25,16 +25,17 @@
         <link rel="icon" type="image/png" href="../img/favicon16x16.png" sizes="16x16">
         <link rel="manifest" href="../manifest.json">
         <link rel="mask-icon" href="../img/safaripinnedtab.svg" color="#5bbad5">
-        <meta name="theme-color" content="#ffffff">
+        <meta name="theme-color" content="#0d3313">
 
          <!--CSS-->
-        <link href="../css/outputstyle.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <link href="../css/outputstyle.css" rel="stylesheet">
         <!--Icons-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
         
     </head>
     <body>
@@ -72,6 +73,7 @@
                 <div id="SessaoSobreSendas">
                     <h1>Sendas Coffee Warehouse</h1>
                     <h2>Security and quality to store your coffee.</h2>
+                    <a class="btn btnPrimario btnHero" href="#SessaoContato">Contact us</a>
                 </div>
             </div>           
             <!--História Sendas-->
@@ -193,7 +195,7 @@
                 <h2>Location</h2>
                 <div class="row">
                     <div class="col s12">
-                        <a class="btn blue darken-3" href="https://maps.app.goo.gl/JJvos4Jr5ibVg3fx5" target="_blank" rel="noopener">
+                        <a class="btn btnPrimario" href="https://maps.app.goo.gl/JJvos4Jr5ibVg3fx5" target="_blank" rel="noopener">
                         Open in Google Maps<i class="material-icons right" aria-hidden="true">open_in_new</i></a>      
                         <div id="scrollmapoff">
                             <iframe loading="lazy" title="Map of the Sendas location in Varginha - MG" src="https://maps.google.com/maps?q=Armazem+Sendas+S.A.,+Av.+Comendador+Manoel+Sendas,+50+-+Parque+das+Americas,+Varginha+-+MG,+37030-035&amp;z=16&amp;hl=en&amp;output=embed"></iframe>
@@ -225,7 +227,7 @@
                                     <textarea name="mensagem" id="mensagem" cols="1" rows="1" placeholder="Text your message here" class="materialize-textarea" required></textarea>
                                 </div>
                                 <div class="col s12 m12">
-                                    <button type="submit" id="submitbtn" class="btn green darken-3" data-enviando="Sending…">Send</button>
+                                    <button type="submit" id="submitbtn" class="btn btnPrimario" data-enviando="Sending…">Send</button>
                                 </div>
                                 <input type="hidden" name="_next" value="/armazensgerais/en/thankyou_for_contact.html">
                                 <input type="hidden" name="_subject" value="New message posted on site!">                                
@@ -234,49 +236,49 @@
                     </div>
                 </div>
             </div>
-            <footer class="page-footer brown lighten-5">
+            <footer class="page-footer rodape">
                 <div class="row container">
                     <div class="col l4 s12">
-                        <h5 class="brown-text">
+                        <h5>
                             Sendas Comércio Exterior e Armazéns Gerais S.A</h5>
-                        <div class="brown-text">Address: Rua Comendador Manoel Sendas, Varginha - MG.</div>
-                        <div class="brown-text">Phone: <a class="brown-text linkRodape" href="tel:+553521059600">+55 35 2105-9600</a> / <a class="brown-text linkRodape" href="tel:+553521059616">+55 35 2105-9616</a></div>
-                        <div class="brown-text">Email: <a class="brown-text linkRodape" href="mailto:armazem@sendastrading.com.br">armazem@sendastrading.com.br</a></div>
+                        <div>Address: Rua Comendador Manoel Sendas, Varginha - MG.</div>
+                        <div>Phone: <a class="linkRodape" href="tel:+553521059600">+55 35 2105-9600</a> / <a class="linkRodape" href="tel:+553521059616">+55 35 2105-9616</a></div>
+                        <div>Email: <a class="linkRodape" href="mailto:armazem@sendastrading.com.br">armazem@sendastrading.com.br</a></div>
                         <!-- <ul>
                             <li>
-                                <a class="brown-text" href="../trabalhe_conosco.html"><h5 class="brown-text">Work with us !</h5></a>
+                                <a href="../trabalhe_conosco.html"><h5>Work with us !</h5></a>
                             </li>
                         </ul> -->
                     </div>
 
                     <div class="col l4 s12">
-                        <h5 class="brown-text">Offices:</h5>
+                        <h5>Offices:</h5>
                         <ul>
                             <li>
-                                <span class="brown-text">&#160;Varginha - MG (Offices and Warehouse)</span>
+                                <span>&#160;Varginha - MG (Offices and Warehouse)</span>
                             </li>
                             <li>
-                                <span class="brown-text">&#160;Barra da Tijuca - RJ</span>
+                                <span>&#160;Barra da Tijuca - RJ</span>
                             </li>
                             <li>
-                                <span class="brown-text">&#160;Santos - SP</span>
+                                <span>&#160;Santos - SP</span>
                             </li>
                         </ul>
                     </div>
                     <div class="col l4 s12">
-                        <h5 class="brown-text">Sitemap</h5>
+                        <h5>Sitemap</h5>
                         <ul>
-                            <li><a class="brown-text" href="#SessaoSobreSendas">About Us</a></li>
-                            <li><a class="brown-text" href="#SessaoTradicao">Sendas Tradition</a></li>
-                            <li><a class="brown-text" href="#SessaoLogistica">Logistics</a></li>
-                            <li><a class="brown-text" href="#SessaoEmbarque">Structure</a></li>
-                            <li><a class="brown-text" href="#SessaoLocalizacao">Location</a></li>
-                            <li><a class="brown-text" href="#SessaoContato">Contact</a></li>
+                            <li><a href="#SessaoSobreSendas">About Us</a></li>
+                            <li><a href="#SessaoTradicao">Sendas Tradition</a></li>
+                            <li><a href="#SessaoLogistica">Logistics</a></li>
+                            <li><a href="#SessaoEmbarque">Structure</a></li>
+                            <li><a href="#SessaoLocalizacao">Location</a></li>
+                            <li><a href="#SessaoContato">Contact</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="footer-copyright">
-                    <div class="row container brown-text">
+                    <div class="row container">
                         © <span class="ano-atual">2026</span> All rights reserved.
                     </div>
                 </div>
