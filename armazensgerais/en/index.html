@@ -210,22 +210,22 @@
                             <div class="col s12 m12">
                                 <div class="col s12 m4">
                                     <label for="nome" class="visuallyhidden">Name:</label>
-                                    <input type="text" name="nome" id="nome" class="name" placeholder="Name" required>
+                                    <input type="text" name="nome" id="nome" class="name" placeholder="Name" autocomplete="name" required>
                                 </div>
                                 <div class="col s12 m4">
                                     <label for="email" class="visuallyhidden">Email:</label>
-                                    <input type="email" name="_replyto" id="email" class="email" placeholder="Email" required>
+                                    <input type="email" name="_replyto" id="email" class="email" placeholder="Email" autocomplete="email" required>
                                 </div>
                                 <div class="col s12 m4">
-                                    <label for="telefone" class="visuallyhidden">Phone:</label>
-                                    <input type="text" name="telefone" id="telefone" placeholder="Phone" maxlength="15" required>
+                                    <label for="telefone" class="visuallyhidden">Phone (optional):</label>
+                                    <input type="tel" name="telefone" id="telefone" placeholder="Phone" maxlength="20" autocomplete="tel">
                                 </div>
                                 <div class="col s12 m12">
                                     <label for="mensagem" class="visuallyhidden">Message:</label>
                                     <textarea name="mensagem" id="mensagem" cols="1" rows="1" placeholder="Text your message here" class="materialize-textarea" required></textarea>
                                 </div>
                                 <div class="col s12 m12">
-                                    <button type="submit" method="post" name="enviar" value="Enviar Mensagem" id="submitbtn" onclick="" class="btn green darken-3">Send</button>
+                                    <button type="submit" id="submitbtn" class="btn green darken-3" data-enviando="Sending…">Send</button>
                                 </div>
                                 <input type="hidden" name="_next" value="/armazensgerais/en/thankyou_for_contact.html">
                                 <input type="hidden" name="_subject" value="New message posted on site!">                                

@@ -378,4 +378,12 @@ html {
   [id^="Sessao"] {
     scroll-margin-top: 56px; } }
 
+.formContato label {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px; }
+
+.formContato input::placeholder,
+.formContato textarea::placeholder {
+  color: #757575; }
+
 /*# sourceMappingURL=outputstyle.css.map */
