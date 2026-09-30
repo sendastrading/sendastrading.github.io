@@ -1,9 +1,11 @@
 @font-face {
   font-family: fonteTituloSessao;
-  src: url(../fonts/steelfish.ttf); }
+  src: url(../fonts/steelfish.woff2) format("woff2"), url(../fonts/steelfish.ttf) format("truetype");
+  font-display: swap; }
 @font-face {
   font-family: fonteSubTituloSessao;
-  src: url(../fonts/Gotham-Thin.otf); }
+  src: url(../fonts/Gotham-Thin.woff2) format("woff2"), url(../fonts/Gotham-Thin.otf) format("opentype");
+  font-display: swap; }
 .strong {
   font-weight: 700; }
 
@@ -19,6 +21,7 @@
   background-repeat: repeat;
   background-size: cover;
   background-image: url("../img/fundoParalax.jpg");
+  background-image: image-set(url("../img/fundoParalax.webp") type("image/webp"), url("../img/fundoParalax.jpg") type("image/jpeg"));
   padding-top: 0px;
   padding-bottom: 0px; }
 
@@ -28,6 +31,7 @@
   background-repeat: repeat;
   background-size: cover;
   background-image: url("../img/fundoParalaxArmazem.jpg");
+  background-image: image-set(url("../img/fundoParalaxArmazem.webp") type("image/webp"), url("../img/fundoParalaxArmazem.jpg") type("image/jpeg"));
   padding-top: 300px;
   padding-bottom: 300px; }
 
@@ -37,6 +41,7 @@
   background-repeat: repeat;
   background-size: cover;
   background-image: url("../img/fundoParalaxEmbarque.jpg");
+  background-image: image-set(url("../img/fundoParalaxEmbarque.webp") type("image/webp"), url("../img/fundoParalaxEmbarque.jpg") type("image/jpeg"));
   padding-top: 100px;
   padding-bottom: 100px; }
 
