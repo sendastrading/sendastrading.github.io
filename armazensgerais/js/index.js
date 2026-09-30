@@ -3,9 +3,6 @@
   //parallax
   $(".parallax").parallax(), 
   
-  //rolapbaixo
-  $("body").animatescroll()
-
   //ano do copyright no rodape
   $(".ano-atual").text(new Date().getFullYear())
 
